@@ -1,23 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html class="backgroundYellow">
+
 
 <head>
     <link rel="stylesheet" href="jackStyle.css">
 </head>
 
 <body>
-    <div class="mainHeader">
+    <div id="navBar" class="backgroundWhite bottomShadow">
         <div class="headerText">
             <h1>Jack Coffey</h1>
         </div>
-    </div>    
-
-    <div class="test">
-
-    </div>
-
-    <div id="navBar">
         <nav>
+
             <ul class="navList">
                 <li>
                     <div class="centre"><a href="./Home.html">Home</a></div>
@@ -35,10 +30,12 @@
             <!-- <div class="page-divider"></div> -->
         </nav>
     </div>
-    <div class="pageContent">
-        <div class="snippet">
-            <div>
-                <h2>My Background</h2>
+
+    <div id="myBackground" class="pageSection backgroundYellow bottomShadow">
+        <div class="pageContent">
+            <div class="article">
+                <h2 class="fontRed">My Background</h2>
+                <hr>
 
                 <p>I’m a software developer with 2
                     years of working experience
@@ -55,35 +52,85 @@
                     better facilitate working within the
                     city centre.</p>
             </div>
+        </div>
+    </div>
 
-            <div>
-                <h2>Experience</h2>
+    <div id="education" class="pageSection backgroundWhite bottomShadow">
+        <div class="pageContent">
+            <div class="article">
+                <h2 class="fontRed">Experience</h2>
+                <hr>
+                <div class="wrapper">
+                    <div class="firstColumn">
+                        <div class="divCentre">
+                            <h4>Newcastle Borough Council</h4>
+                            <p>October 2020 – Present</p>
+                        </div>
 
-                <p>Newcastle Borough Council – Digital Delivery
-                    (October 2020 – Present)
-                </p>
+                    </div>
+                    <div class="secondColumn">
+                        <h4>Junior Software Developer</h4>
+                        <p>The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML
+                            and more. During my time in college, I specialized in multimedia. Here I learned about
+                            gaming -the importance of OOP-, web- and user experience and design.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="firstColumn">
+                        <div class="divCentre">
+                            <h4>QA Apprenticeship</h4>
+                            <p>December 2019 - October 2020</p>
+                        </div>
+
+                    </div>
+                    <div class="secondColumn">
+                        <h4>Software Development Level 3</h4>
+                        <p>The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML
+                            and more. During my time in college, I specialized in multimedia. Here I learned about
+                            gaming -the importance of OOP-, web- and user experience and design.</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="firstColumn">
+                        <div class="divCentre">
+                            <h4>Newcastle-Under-Lyme College</h4>                               </h4>
+                            <p>(2014 – 2016)</p>
+                        </div>
+
+                    </div>
+                    <div class="secondColumn">
+                        <h4>A level</h4>
+                        <p>Computing B, Maths C, Physics C</p>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="firstColumn">
+                        <div class="divCentre">
+                            <h4>High School Education</h4>
+                            <p>(2009 – 2014)</p>
+                        </div>
+
+                    </div>
+                    <div class="secondColumn">
+                        <h4>Wolstanton High School</h4>
+                        <p>The education was mainly Java-based programming, but I also learned about SQL, PHP, MVC, UML
+                            and more. During my time in college, I specialized in multimedia. Here I learned about
+                            gaming -the importance of OOP-, web- and user experience and design.</p>
+                    </div>
+                </div>
+
+
             </div>
+        </div>
+    </div>
 
-            <div>
-                <h2>Education</h2>
-                <p>QA Apprenticeship
-                    (December 2019 – October 2020)
-                    BCS Level 3 Software Development
-                    Context and Methodologies<br>
-                    College Education
-                    Newcastle-Under-Lyme College
-                    (2014 – 2016)
-                    Computing B, Maths C, Physics C<br>
-                    High School Education
-                    Wolstanton High School
-                    (2009 – 2014)
-                    5 Grade A-A*, 4 Grade B, 3 Grade C
-                </p>
-            </div>
-            <div>
-                <h2>Experience</h2>
+    <div id="experience" class="pageSection backgroundYellow bottomShadow">
+        <div class="pageContent">
+            <div class="article">
+                <h2 class="fontRed">Experience</h2>
                 <p>Newcastle Borough Council – Digital Delivery <br>
                     (October 2020 – Present) </p>
+                <hr>
                 <ul>
                     <li>Worked within a team of 8 people specialising in modernising the council</li>
                     <li>Developed a new website for the council using Jadu alongside 2 content
@@ -112,7 +159,15 @@
                     <li>Introduced our team to GitHub and developed new version control
                         strategies for our future work</li>
                 </ul>
-                <h2>Projects</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="pageSection backgroundWhite bottomShadow">
+        <div class="pageContent">
+            <div class="article">
+                <h2 class="fontRed">Projects</h2>
+                <hr>
                 <ul>
                     <li>Created a program to extract JSON data from an API, format and
                         manipulate the data in a customisable way then export it into excel sheets
